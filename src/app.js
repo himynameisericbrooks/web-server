@@ -14,6 +14,19 @@ app.get('', (req, res) => {
     })
 })
 
+app.get('/about', (req, res) => {
+    res.render('about', {
+        title: 'About Me',
+        name: 'Eric Brooks'
+    })
+})
+
+app.get('/help', (req, res) => {
+    res.render('help', {
+        helpText: 'This is the help paragraph'
+    })
+})
+
 app.get('', (req, res) => {
     res.send('<h1>Weather</h1>')
 })
