@@ -29,12 +29,23 @@ header {
 h1 {
     font-size: 48px;
     margin-bottom: 16px;
+    transition: 2s;
+}
+
+h1:hover {
+    color: #005656;
 }
 
 header a {
     color: #888888;
     margin-right: 16px;
     text-decoration: none;
+    transition: .8s;
+}
+
+header a:hover {
+    color: #339999;
+    background-color: #fcfcfc;
 }
 
 .portrait {
@@ -52,4 +63,10 @@ button {
     background: #888888;
     color: white;
     padding: 8px;
+    transition: 3s;
+}
+
+button:hover {
+    background-color: #009999;
+    color: #eeeeee;
 }
